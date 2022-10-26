@@ -10,8 +10,8 @@
     <h1>Add Instructor</h1>
 <form method="post" action="instructor-add-save.php">
   <div class="mb-3">
-    <label for="instructor_name" class="form-label">Name</label>
-    <input type="text" class="form-control" id="instructor_name" aria-describedby="nameHelp" name="iName">
+    <label for="instructorName" class="form-label">Name</label>
+    <input type="text" class="form-control" id="instructorName" aria-describedby="nameHelp" name="iName">
     <div id="nameHelp" class="form-text">Enter the instructor's name.</div>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
